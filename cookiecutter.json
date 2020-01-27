@@ -1,0 +1,16 @@
+{
+  "module_name": "example_module_name",
+  "module_verbose_name": "{{ cookiecutter.module_name.split('_') | map('capitalize') | join(' ')}}",
+  "website": "https://icode.by",
+  "odoo_version": [
+    "13.0",
+    "12.0",
+    "11.0",
+    "10.0",
+    "9.0"
+  ],
+  "year": 2020,
+  "author": "Pavel Kedrinskiy",
+  "category": "Uncategorized",
+  "_copy_without_render": []
+}

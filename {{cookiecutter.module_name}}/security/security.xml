@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--<record model="ir.module.category" id="module_category_{{cookiecutter.module_name}}">-->
+    <!--    <field name="name">{{cookiecutter.module_verbose_name}}</field>-->
+    <!--    <field name="sequence">20</field>-->
+    <!--</record>-->
+
+    <!--<record id="group_{{cookiecutter.module_name}}_manager" model="res.groups">-->
+    <!--    <field name="name">{{cookiecutter.module_verbose_name}} Manager</field>-->
+    <!--    <field name="category_id" ref="module_category_{{cookiecutter.module_name}}"/>-->
+    <!--    <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>-->
+    <!--</record>-->
+</odoo>
